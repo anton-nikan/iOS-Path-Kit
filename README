@@ -1,0 +1,27 @@
+iOS Path Kit Framework
+
+Current version: Draft 0.3 (design-focused, non-optimized).
+
+Purpose:
+	- Building and manipulating paths.
+	- Displaying paths with OpenGL.
+	
+Classes:
+	- LinearPath: simple start-end path.
+	- LinearWaypointPath: path with waypoints connected by lines.
+	- TrackingPath: linear path that changes its destination by tracking the target.
+	- PathWalker: class to walk through all paths.
+	- PathViewLine: displaying whole path as a line.
+	- FuturePathViewLine: displaying part of path from current position to destination as a line.
+	- PastPathViewLine: displaying part of path from start to current position as a line.
+	- FuturePathViewTexture: textured version of FuturePathViewLine.
+	- PastPathViewTexture: textured version of PastPathViewLine.
+	- StripPathBuilder: building VBO for given path.
+	
+Features:
+	- Uses OpenGL calls for rendering: independent from current graphics engine.
+	- Uses CoreGraphics types and functions for operation.
+	- Uses VBOs to display paths.
+	
+Samples:
+	- Whiteboard: simple iPad UIKit application that uses LinearWaypointPath and PathViewLine to make and display drawings.

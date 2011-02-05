@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* PathKit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* PathKit_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		F41450EC12FD60DA00E6F919 /* PKPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450D612FD60DA00E6F919 /* PKPath.h */; };
+		F41450ED12FD60DA00E6F919 /* PKLinearPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450D712FD60DA00E6F919 /* PKLinearPath.h */; };
+		F41450EE12FD60DA00E6F919 /* PKLinearPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450D812FD60DA00E6F919 /* PKLinearPath.m */; };
+		F41450EF12FD60DA00E6F919 /* PKLinearWaypointPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450D912FD60DA00E6F919 /* PKLinearWaypointPath.h */; };
+		F41450F012FD60DA00E6F919 /* PKLinearWaypointPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450DA12FD60DA00E6F919 /* PKLinearWaypointPath.m */; };
+		F41450F112FD60DA00E6F919 /* PKTrackingPath.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450DB12FD60DA00E6F919 /* PKTrackingPath.h */; };
+		F41450F212FD60DA00E6F919 /* PKTrackingPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450DC12FD60DA00E6F919 /* PKTrackingPath.m */; };
+		F41450F312FD60DA00E6F919 /* PKTrackingTargetProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450DD12FD60DA00E6F919 /* PKTrackingTargetProtocol.h */; };
+		F41450F412FD60DA00E6F919 /* PKPathWalker.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450DE12FD60DA00E6F919 /* PKPathWalker.h */; };
+		F41450F512FD60DA00E6F919 /* PKPathWalker.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450DF12FD60DA00E6F919 /* PKPathWalker.m */; };
+		F41450F612FD60DA00E6F919 /* PKStripPathBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450E012FD60DA00E6F919 /* PKStripPathBuilder.h */; };
+		F41450F712FD60DA00E6F919 /* PKStripPathBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450E112FD60DA00E6F919 /* PKStripPathBuilder.m */; };
+		F41450F812FD60DA00E6F919 /* PKPathViewLine.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450E212FD60DA00E6F919 /* PKPathViewLine.h */; };
+		F41450F912FD60DA00E6F919 /* PKPathViewLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450E312FD60DA00E6F919 /* PKPathViewLine.m */; };
+		F41450FA12FD60DA00E6F919 /* PKFuturePathViewLine.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450E412FD60DA00E6F919 /* PKFuturePathViewLine.h */; };
+		F41450FB12FD60DA00E6F919 /* PKFuturePathViewLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450E512FD60DA00E6F919 /* PKFuturePathViewLine.m */; };
+		F41450FC12FD60DA00E6F919 /* PKPastPathViewLine.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450E612FD60DA00E6F919 /* PKPastPathViewLine.h */; };
+		F41450FD12FD60DA00E6F919 /* PKPastPathViewLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450E712FD60DA00E6F919 /* PKPastPathViewLine.m */; };
+		F41450FE12FD60DA00E6F919 /* PKFuturePathViewTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450E812FD60DA00E6F919 /* PKFuturePathViewTexture.h */; };
+		F41450FF12FD60DA00E6F919 /* PKFuturePathViewTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450E912FD60DA00E6F919 /* PKFuturePathViewTexture.m */; };
+		F414510012FD60DA00E6F919 /* PKPastPathViewTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = F41450EA12FD60DA00E6F919 /* PKPastPathViewTexture.h */; };
+		F414510112FD60DA00E6F919 /* PKPastPathViewTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F41450EB12FD60DA00E6F919 /* PKPastPathViewTexture.m */; };
+		F46A4D7E12FD63A3004EFEA1 /* PathKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F46A4D7D12FD63A3004EFEA1 /* PathKit.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* PathKit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathKit_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libPathKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPathKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41450D612FD60DA00E6F919 /* PKPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPath.h; sourceTree = "<group>"; };
+		F41450D712FD60DA00E6F919 /* PKLinearPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLinearPath.h; sourceTree = "<group>"; };
+		F41450D812FD60DA00E6F919 /* PKLinearPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLinearPath.m; sourceTree = "<group>"; };
+		F41450D912FD60DA00E6F919 /* PKLinearWaypointPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLinearWaypointPath.h; sourceTree = "<group>"; };
+		F41450DA12FD60DA00E6F919 /* PKLinearWaypointPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLinearWaypointPath.m; sourceTree = "<group>"; };
+		F41450DB12FD60DA00E6F919 /* PKTrackingPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTrackingPath.h; sourceTree = "<group>"; };
+		F41450DC12FD60DA00E6F919 /* PKTrackingPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTrackingPath.m; sourceTree = "<group>"; };
+		F41450DD12FD60DA00E6F919 /* PKTrackingTargetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTrackingTargetProtocol.h; sourceTree = "<group>"; };
+		F41450DE12FD60DA00E6F919 /* PKPathWalker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPathWalker.h; sourceTree = "<group>"; };
+		F41450DF12FD60DA00E6F919 /* PKPathWalker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPathWalker.m; sourceTree = "<group>"; };
+		F41450E012FD60DA00E6F919 /* PKStripPathBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKStripPathBuilder.h; sourceTree = "<group>"; };
+		F41450E112FD60DA00E6F919 /* PKStripPathBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKStripPathBuilder.m; sourceTree = "<group>"; };
+		F41450E212FD60DA00E6F919 /* PKPathViewLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPathViewLine.h; sourceTree = "<group>"; };
+		F41450E312FD60DA00E6F919 /* PKPathViewLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPathViewLine.m; sourceTree = "<group>"; };
+		F41450E412FD60DA00E6F919 /* PKFuturePathViewLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFuturePathViewLine.h; sourceTree = "<group>"; };
+		F41450E512FD60DA00E6F919 /* PKFuturePathViewLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFuturePathViewLine.m; sourceTree = "<group>"; };
+		F41450E612FD60DA00E6F919 /* PKPastPathViewLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPastPathViewLine.h; sourceTree = "<group>"; };
+		F41450E712FD60DA00E6F919 /* PKPastPathViewLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPastPathViewLine.m; sourceTree = "<group>"; };
+		F41450E812FD60DA00E6F919 /* PKFuturePathViewTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFuturePathViewTexture.h; sourceTree = "<group>"; };
+		F41450E912FD60DA00E6F919 /* PKFuturePathViewTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFuturePathViewTexture.m; sourceTree = "<group>"; };
+		F41450EA12FD60DA00E6F919 /* PKPastPathViewTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPastPathViewTexture.h; sourceTree = "<group>"; };
+		F41450EB12FD60DA00E6F919 /* PKPastPathViewTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPastPathViewTexture.m; sourceTree = "<group>"; };
+		F46A4D7D12FD63A3004EFEA1 /* PathKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libPathKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PathKit */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = PathKit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F41450D612FD60DA00E6F919 /* PKPath.h */,
+				F41450D712FD60DA00E6F919 /* PKLinearPath.h */,
+				F41450D812FD60DA00E6F919 /* PKLinearPath.m */,
+				F41450D912FD60DA00E6F919 /* PKLinearWaypointPath.h */,
+				F41450DA12FD60DA00E6F919 /* PKLinearWaypointPath.m */,
+				F41450DB12FD60DA00E6F919 /* PKTrackingPath.h */,
+				F41450DC12FD60DA00E6F919 /* PKTrackingPath.m */,
+				F41450DD12FD60DA00E6F919 /* PKTrackingTargetProtocol.h */,
+				F41450DE12FD60DA00E6F919 /* PKPathWalker.h */,
+				F41450DF12FD60DA00E6F919 /* PKPathWalker.m */,
+				F41450E012FD60DA00E6F919 /* PKStripPathBuilder.h */,
+				F41450E112FD60DA00E6F919 /* PKStripPathBuilder.m */,
+				F41450E212FD60DA00E6F919 /* PKPathViewLine.h */,
+				F41450E312FD60DA00E6F919 /* PKPathViewLine.m */,
+				F41450E412FD60DA00E6F919 /* PKFuturePathViewLine.h */,
+				F41450E512FD60DA00E6F919 /* PKFuturePathViewLine.m */,
+				F41450E612FD60DA00E6F919 /* PKPastPathViewLine.h */,
+				F41450E712FD60DA00E6F919 /* PKPastPathViewLine.m */,
+				F41450E812FD60DA00E6F919 /* PKFuturePathViewTexture.h */,
+				F41450E912FD60DA00E6F919 /* PKFuturePathViewTexture.m */,
+				F41450EA12FD60DA00E6F919 /* PKPastPathViewTexture.h */,
+				F41450EB12FD60DA00E6F919 /* PKPastPathViewTexture.m */,
+				F46A4D7D12FD63A3004EFEA1 /* PathKit.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* PathKit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* PathKit_Prefix.pch in Headers */,
+				F41450EC12FD60DA00E6F919 /* PKPath.h in Headers */,
+				F41450ED12FD60DA00E6F919 /* PKLinearPath.h in Headers */,
+				F41450EF12FD60DA00E6F919 /* PKLinearWaypointPath.h in Headers */,
+				F41450F112FD60DA00E6F919 /* PKTrackingPath.h in Headers */,
+				F41450F312FD60DA00E6F919 /* PKTrackingTargetProtocol.h in Headers */,
+				F41450F412FD60DA00E6F919 /* PKPathWalker.h in Headers */,
+				F41450F612FD60DA00E6F919 /* PKStripPathBuilder.h in Headers */,
+				F41450F812FD60DA00E6F919 /* PKPathViewLine.h in Headers */,
+				F41450FA12FD60DA00E6F919 /* PKFuturePathViewLine.h in Headers */,
+				F41450FC12FD60DA00E6F919 /* PKPastPathViewLine.h in Headers */,
+				F41450FE12FD60DA00E6F919 /* PKFuturePathViewTexture.h in Headers */,
+				F414510012FD60DA00E6F919 /* PKPastPathViewTexture.h in Headers */,
+				F46A4D7E12FD63A3004EFEA1 /* PathKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* PathKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PathKit" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PathKit;
+			productName = PathKit;
+			productReference = D2AAC07E0554694100DB518D /* libPathKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PathKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* PathKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* PathKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41450EE12FD60DA00E6F919 /* PKLinearPath.m in Sources */,
+				F41450F012FD60DA00E6F919 /* PKLinearWaypointPath.m in Sources */,
+				F41450F212FD60DA00E6F919 /* PKTrackingPath.m in Sources */,
+				F41450F512FD60DA00E6F919 /* PKPathWalker.m in Sources */,
+				F41450F712FD60DA00E6F919 /* PKStripPathBuilder.m in Sources */,
+				F41450F912FD60DA00E6F919 /* PKPathViewLine.m in Sources */,
+				F41450FB12FD60DA00E6F919 /* PKFuturePathViewLine.m in Sources */,
+				F41450FD12FD60DA00E6F919 /* PKPastPathViewLine.m in Sources */,
+				F41450FF12FD60DA00E6F919 /* PKFuturePathViewTexture.m in Sources */,
+				F414510112FD60DA00E6F919 /* PKPastPathViewTexture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/PathKit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PathKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = PathKit;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/PathKit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PathKit_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = PathKit;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PathKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PathKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* WhiteboardAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {953, 1059}}";
+			sepNavSelRange = "{532, 79}";
+			sepNavVisRange = "{0, 655}";
+		};
+	};
+	1D3623250D0F684500981E51 /* WhiteboardAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 1729}}";
+			sepNavSelRange = "{1784, 0}";
+			sepNavVisRange = "{1072, 782}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Whiteboard */ = {
+		activeExec = 0;
+		executables = (
+			F40429C412AECA680052A29C /* Whiteboard */,
+		);
+	};
+	2514C26D10084DB100A42282 /* ES1Renderer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {953, 1059}}";
+			sepNavSelRange = "{596, 0}";
+			sepNavVisRange = "{0, 668}";
+		};
+	};
+	2514C26E10084DB100A42282 /* ES1Renderer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 1631}}";
+			sepNavSelRange = "{1962, 0}";
+			sepNavVisRange = "{854, 1028}";
+		};
+	};
+	2514C27110084DB100A42282 /* ESRenderer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {953, 1059}}";
+			sepNavSelRange = "{409, 0}";
+			sepNavVisRange = "{0, 409}";
+		};
+	};
+	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1224, 606}}";
+			sepNavSelRange = "{1297, 0}";
+			sepNavVisRange = "{487, 913}";
+		};
+	};
+	28FD14FD0DC6FC130079059D /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1405, 2914}}";
+			sepNavSelRange = "{1368, 0}";
+			sepNavVisRange = "{3914, 1818}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F40429C412AECA680052A29C /* Whiteboard */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Whiteboard */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Whiteboard */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F40429D512AECA860052A29C /* Code sense */;
+		executables = (
+			F40429C412AECA680052A29C /* Whiteboard */,
+		);
+		expressions = (
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					45.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					731,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318599248;
+			PBXWorkspaceStateSaveDate = 318599248;
+		};
+		perUserProjectItems = {
+			F4101E5412FD70670069C221 /* PBXTextBookmark */ = F4101E5412FD70670069C221 /* PBXTextBookmark */;
+			F4101E5912FD70D10069C221 /* PBXTextBookmark */ = F4101E5912FD70D10069C221 /* PBXTextBookmark */;
+			F47F15B812FD67010021BA29 /* PBXTextBookmark */ = F47F15B812FD67010021BA29 /* PBXTextBookmark */;
+			F47F15BD12FD67490021BA29 /* PBXTextBookmark */ = F47F15BD12FD67490021BA29 /* PBXTextBookmark */;
+			F47F15D412FD68360021BA29 /* PBXTextBookmark */ = F47F15D412FD68360021BA29 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F40429D412AECA860052A29C /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = "/Users/nikan/Projects/(build)/Whiteboard";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Whiteboard_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {949, 401}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 338}";
+		};
+	};
+	F40429C412AECA680052A29C /* Whiteboard */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Whiteboard;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F40429D412AECA860052A29C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F40429D512AECA860052A29C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F4042AB512AEDDFE0052A29C /* Whiteboard.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {949, 587}}";
+			sepNavSelRange = "{354, 0}";
+			sepNavVisRange = "{0, 604}";
+		};
+	};
+	F4042AB612AEDDFE0052A29C /* Whiteboard.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {949, 2275}}";
+			sepNavSelRange = "{2901, 0}";
+			sepNavVisRange = "{1694, 1563}";
+		};
+	};
+	F4101E5412FD70670069C221 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4042AB612AEDDFE0052A29C /* Whiteboard.m */;
+		name = "Whiteboard.m: 23";
+		rLen = 0;
+		rLoc = 414;
+		rType = 0;
+		vrLen = 674;
+		vrLoc = 0;
+	};
+	F4101E5912FD70D10069C221 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4042AB612AEDDFE0052A29C /* Whiteboard.m */;
+		name = "Whiteboard.m: 106";
+		rLen = 0;
+		rLoc = 2901;
+		rType = 0;
+		vrLen = 1563;
+		vrLoc = 1694;
+	};
+	F47F15B812FD67010021BA29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F4042AB512AEDDFE0052A29C /* Whiteboard.h */;
+		name = "Whiteboard.h: 21";
+		rLen = 0;
+		rLoc = 354;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 0;
+	};
+	F47F15BD12FD67490021BA29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Whiteboard_Prefix.pch */;
+		name = "Whiteboard_Prefix.pch: 14";
+		rLen = 0;
+		rLoc = 330;
+		rType = 0;
+		vrLen = 338;
+		vrLoc = 0;
+	};
+	F47F15C112FD67490021BA29 /* PathKit.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PathKit.h;
+		path = /Users/nikan/Projects/Apple/Groups/Number7/PathKit/Public/Samples/Whiteboard/../../Source/PathKit.h;
+		sourceTree = "<absolute>";
+	};
+	F47F15D412FD68360021BA29 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F47F15C112FD67490021BA29 /* PathKit.h */;
+		name = "PathKit.h: 10";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 298;
+		vrLoc = 0;
+	};
+}
